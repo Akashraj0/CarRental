@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+*{box-sizing: border-box;}
+body{margin: 0;text-align: center;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{font-family: 'Markazi Text', serif}
+.about-section{
+    margin-top: 8rem;
+}
+.About-heading{
+    margin: 10rem auto auto auto;
+}
+.About{
+    width:70%;
+    margin: 5rem auto auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:2rem;
+}
+.about_img{
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+.para{
+    width: 70%;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto;
+}
+.h{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 800px) {
+    body{
+          font-size: 10px;
+        }
+
+    .About{
+        grid-template-columns:1fr;
+    }
+    .para{
+        width: 85%;
+        font-size: 20px;
+        text-align: justify;
+        margin: auto;
+    }
+  }

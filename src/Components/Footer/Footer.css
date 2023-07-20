@@ -1,0 +1,37 @@
+.container1{
+    background-color: #32527b;
+}
+.footer{
+    margin-top: 15rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-gap:0.2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.foot h4{
+       text-align: left;
+       margin-bottom: 10px;
+
+}
+.foot h5{
+       text-align: left;
+       font-size: 12px;
+       margin-bottom: 10px;
+}
+.foot span{
+    text-align: justify;
+    font-size: 12px;
+    width: 60%;
+}
+.foot p{
+    font-size: 12px;
+    text-align: left;
+    width: 70%;
+}
+@media screen and (max-width: 992px) {
+    body{
+        font-size: 6px;
+      }
+    }

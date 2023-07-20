@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Markazi Text', serif
+}
+.info-content{
+    margin-top: 5rem;
+}
+.info{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 5rem;
+    width: 80%;
+    margin: auto auto auto auto;
+    top:2rem;
+}
+.info-para p{
+     text-align: justify;
+     margin-top: 2rem;
+     font-size: 20px;
+}
+.info-img img{
+    border-radius: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 17rem;
+}
+.social-link a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 2rem;
+}
+.contact-head{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.contact-para p{
+    margin-top: 1rem;
+    margin-bottom: 15rem;
+    font-size: 20px;
+}
+.sign input{
+    margin: 2rem 1rem;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+.sign-head{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.sign-button{
+    padding: 1rem;
+    max-width: 20%;
+    margin:2rem auto auto auto;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #32527b;
+}
+.sign{
+    margin-bottom: 15rem;
+}
+.required{
+    color: red;
+}
+.label{
+    font-size: 20px;
+    font-weight:bolder;
+}
+.register{
+    font-size: 30px;
+    color: #32527b;
+    margin:16rem auto;
+}
+@media screen and (max-width: 900px) {
+      .contact-para p{
+        font-size: 15px;
+    }
+    .info-para p{
+        font-size: 15px;
+   }
+    }

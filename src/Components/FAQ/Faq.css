@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+.FAQ{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+}
+.First{
+    text-align: center;
+}
+.Second{
+    margin-top: 4rem;
+    text-align: center;
+}
+.h{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+button {
+    padding:0.8rem 0rem 0.8rem 0rem;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 55px;
+    width: 70%;
+    margin: auto;
+ }
+ button:hover {
+    background-color: #32527b;
+ }
+ button:active {
+    transform: scale(0.95);
+    background-color: #32527b;
+ }
+ button:focus {
+    outline: none;
+ }
+ @media screen and (max-width: 992px) {
+    body{
+        font-size: 10px;
+      }
+      button {
+        padding:0.8rem 0rem 0.8rem 0rem;
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+        border-radius: 55px;
+        width: 80%;
+        margin: auto;
+     }
+    }

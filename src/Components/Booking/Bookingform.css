@@ -1,0 +1,60 @@
+.form-head{
+    margin:8rem auto;
+}
+.form-section{
+    background-color: #32527b;
+}
+.form{
+    width:60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:0.5rem;
+}
+.book > label{
+    margin-bottom: 0.5rem;
+}
+.book{
+    font-size: 20px;
+    margin:2rem;
+}
+.book input,select{
+    padding: 10px 10px;
+    font-size: 15px;
+    margin: 2rem;
+}
+select{
+    padding:auto 2rem;
+}
+.btn-book{
+    top:10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 800px) {
+    *{box-sizing: border-box;}
+    body{margin: 0;
+        font-size: 10px;
+      }
+    .form{
+        width:60%;
+        margin: auto;
+        display: block;
+        grid-gap:0.5rem;
+    }
+    .book input,select{
+        width: 100%;
+       border-radius: 20px;
+       display: block;
+       text-align: center;
+       margin: auto;
+    }
+    .btn-book{
+        top: -44px;
+        color: black;
+        font-size: 20px;
+        font-weight: bolder;
+        position: relative;
+    }
+}

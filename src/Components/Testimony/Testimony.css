@@ -1,0 +1,44 @@
+.Testimonyc{
+    width: 60%;
+    margin: auto;
+    margin-top: 15rem;
+    bottom: 0;
+}
+.Intro{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.h{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.review{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+}
+.about_img{
+    margin:auto;
+    border-radius: 50%;
+    display: block;
+
+}
+.span{
+    margin-left: 2px;
+}
+.test-sub-head{
+    width:60%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 992px) {
+    .review{
+        grid-template-columns: 1fr;
+        grid-gap:2rem;
+    }
+    .test-sub-head{
+        font-size: 15px;
+        width: 80%;
+    }
+  }
