@@ -12,7 +12,7 @@ const Router = () => {
   return (
     <div>
       <Routes>
-        <Route path='Rentalcar' element={<Main/>}/>
+        <Route path='CarRental' element={<Main/>}/>
         <Route path="/bookingform" element={<Bookingpage/>}/>
         <Route path="/bookingconformation" element={<BookingConfirmation/>}/>
         <Route path='/about' element={<Info/>}/>
