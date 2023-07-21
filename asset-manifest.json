@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/CarRental/static/css/main.332caa03.css",
+    "main.js": "/CarRental/static/js/main.0fd2c4f5.js",
+    "static/js/787.e8008bae.chunk.js": "/CarRental/static/js/787.e8008bae.chunk.js",
+    "static/media/Girl1.jpg": "/CarRental/static/media/Girl1.d108557227a1595def92.jpg",
+    "static/media/Audi.png": "/CarRental/static/media/Audi.f679ad64e2c4895f3f35.png",
+    "static/media/Boy.jpg": "/CarRental/static/media/Boy.01df819bc63f401f5ce5.jpg",
+    "static/media/Info.jpg": "/CarRental/static/media/Info.9995bae26390f740b9fb.jpg",
+    "static/media/cars.png": "/CarRental/static/media/cars.5d37b592c25c5dbd6c60.png",
+    "static/media/grey.png": "/CarRental/static/media/grey.9388af7377077aebe6c0.png",
+    "static/media/mercedes1.png": "/CarRental/static/media/mercedes1.7bed66b3d8af4a64f33b.png",
+    "static/media/proche.png": "/CarRental/static/media/proche.cf9d12b5a1eca3225ca6.png",
+    "static/media/car.png": "/CarRental/static/media/car.bc3ed51b6318e23218dd.png",
+    "static/media/Mercedes.png": "/CarRental/static/media/Mercedes.83ceb26e36645fccf021.png",
+    "static/media/Cross.png": "/CarRental/static/media/Cross.55194389f2a0cbe792c9.png",
+    "static/media/Service.png": "/CarRental/static/media/Service.b2f0ef839c8614fe5523.png",
+    "static/media/dollar.png": "/CarRental/static/media/dollar.9a0b471b866937a8dd53.png",
+    "static/media/hand.png": "/CarRental/static/media/hand.f1b9986493671a83be9e.png",
+    "static/media/Car rental.png": "/CarRental/static/media/Car rental.0299547b39ba775acee4.png",
+    "static/media/car1.png": "/CarRental/static/media/car1.dd3690c95db016fcd9e8.png",
+    "index.html": "/CarRental/index.html",
+    "main.332caa03.css.map": "/CarRental/static/css/main.332caa03.css.map",
+    "main.0fd2c4f5.js.map": "/CarRental/static/js/main.0fd2c4f5.js.map",
+    "787.e8008bae.chunk.js.map": "/CarRental/static/js/787.e8008bae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.332caa03.css",
+    "static/js/main.0fd2c4f5.js"
+  ]
+}
